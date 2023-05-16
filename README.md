@@ -1,5 +1,6 @@
 # Digikey_Barcode_Scanner
 
+
 Set up:
 
   Log into Digikey API portal and make sure you 
@@ -18,6 +19,7 @@ Set up:
               pip install -e .
           (You may need to install pip)
           
+          
 
 Authorization:
 
@@ -32,12 +34,26 @@ Authorization:
     sign in now, otherwise you will need to give approval and click Allow.
     
     Once done, you will be given an OAuth token to enter into the terminal prompt.
-    
+   
+   
+   
     Scanning:
     
     After completing all steps outlined above you will be able to run:
            python examples/scan.py
     in the terminal and you are all set to scan!
+    
+    
+    
+    
+    
+    You may need to install python packages
+    using commands:
+    
+    pip install xlsxwriter
+    pip install openpyxl
+    pip install pandas
+                              
     
   
   
