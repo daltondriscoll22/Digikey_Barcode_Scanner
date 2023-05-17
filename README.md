@@ -14,10 +14,12 @@ Set up:
   - Clone this repository to designated folder
   - Go into your terminal and cd to the folder
   - Use the commands:
+  
               python3 -m venv venv
               source venv/bin/activate
               pip install -e .
-          (You may need to install pip)
+              
+  (You may need to install pip)
           
           
 
@@ -27,7 +29,9 @@ Authorization:
     and ready for functionality.
     
     Use the command: 
+    
           python -m Initialize.authorize
+          
     You will then be prompted to insert the Client ID and Secret.
     
     After entering the ID and Secret, the Digikey Webpage will open. If you are not signed in you will need to 
